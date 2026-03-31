@@ -2,19 +2,6 @@
 
 This project demonstrates a complete **end-to-end Machine Learning pipeline** using **Logistic Regression** to predict whether a customer will purchase an SUV based on their **Age** and **Estimated Salary**.
 
-The project covers:
-
-* Data Exploration
-* Data Preprocessing
-* Model Training
-* Model Evaluation
-* Visualization
-* Model Improvement
-* Interview Questions
-* AI-assisted Explanation
-
----
-
 # Part A 
 
 ## 1. Data Loading & Exploration
@@ -46,8 +33,8 @@ Data exploration helps us understand:
 
 We check for missing values. If present:
 
-* Numerical → fill with mean/median
-* Categorical → fill with mode
+* Numerical - fill with mean/median
+* Categorical - fill with mode
 
 (In this dataset, usually no missing values are present.)
 
@@ -61,8 +48,8 @@ The dataset contains a categorical column:
 
 We convert it into numerical format:
 
-* Male → 1
-* Female → 0
+* Male - 1
+* Female - 0
 
 Why?
 Machine learning models only understand numbers.
@@ -82,8 +69,8 @@ These are important features influencing purchase decision.
 
 ### d) Define X and y
 
-* X → Features (independent variables)
-* y → Target (Purchased)
+* X - Features (independent variables)
+* y - Target (Purchased)
 
 ---
 
@@ -155,10 +142,10 @@ A confusion matrix gives detailed performance:
 
 Where:
 
-* TP → True Positive
-* TN → True Negative
-* FP → False Positive
-* FN → False Negative
+* TP - True Positive
+* TN - True Negative
+* FP - False Positive
+* FN - False Negative
 
 ### Importance:
 
@@ -166,7 +153,7 @@ It helps understand not just accuracy but **type of errors**.
 
 ---
 
-## 2. Visualization — Decision Boundary
+## 2. Visualization - Decision Boundary
 
 We can plot decision boundary using:
 
@@ -220,7 +207,7 @@ Where:
 ### Output:
 
 * If p > 0.5 → Class 1
-* Else → Class 0
+* Else - Class 0
 
 ---
 
